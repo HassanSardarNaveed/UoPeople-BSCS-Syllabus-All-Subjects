@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS Student Hub – Important Links</title>
+  <meta name="description" content="Curated, high‑value links for BSCS students at UoPeople and beyond." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>💻</text></svg>">
+  <style>
+    :root{
+      --bg:#0b1220; /* deep navy */
+      --panel:#0f172a; /* slate-900 */
+      --panel-2:#111827; /* gray-900 */
+      --text:#e5e7eb; /* gray-200 */
+      --muted:#94a3b8; /* slate-400 */
+      --brand:#6ee7b7; /* emerald-300 */
+      --brand-2:#60a5fa; /* blue-400 */
+      --accent:#fde68a; /* amber-200 */
+      --ring: rgba(96,165,250,.45);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica Neue, Arial, Noto Sans, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text); background: radial-gradient(1200px 700px at 100% -20%, rgba(96,165,250,.18), transparent 40%), radial-gradient(900px 600px at -10% 10%, rgba(110,231,183,.18), transparent 40%), var(--bg);
+      line-height:1.6;
+    }
+    a{color:inherit; text-decoration:none}
+    .container{max-width:1100px; margin:0 auto; padding:24px}
+    header{
+      position:relative; overflow:hidden; border-radius:20px; padding:38px 28px; background:
+        radial-gradient(800px 300px at 10% -20%, rgba(110,231,183,.25), transparent 50%),
+        linear-gradient(135deg, rgba(96,165,250,.25), rgba(99,102,241,.15) 40%, rgba(110,231,183,.10));
+      border: 1px solid rgba(148,163,184,.18);
+      box-shadow: 0 10px 30px rgba(2,6,23,.35), inset 0 0 0 1px rgba(255,255,255,.03);
+    }
+    .eyebrow{display:inline-flex; align-items:center; gap:8px; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);}
+    .title{font-size: clamp(28px, 3.6vw, 44px); margin:8px 0 10px; line-height:1.15}
+    .subtitle{color:var(--muted); max-width:70ch}
+    .cta-row{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:11px 16px; border-radius:12px; border:1px solid rgba(148,163,184,.22);
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      font-weight:600; color:#eaf2ff; transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease; will-change: transform;
+    }
+    .btn:hover{ transform: translateY(-1px); border-color:rgba(96,165,250,.45); box-shadow:0 8px 22px rgba(2,6,23,.35); }
+    .btn.primary{ background: linear-gradient(180deg, rgba(96,165,250,.35), rgba(96,165,250,.15)); color:white }
+
+    .grid{display:grid; gap:18px; grid-template-columns: repeat(12, 1fr); margin-top:26px}
+    .card{
+      grid-column: span 12;
+      background: linear-gradient(180deg, rgba(17,24,39,.9), rgba(15,23,42,.9));
+      border:1px solid rgba(148,163,184,.16);
+      border-radius:18px; padding:18px; position:relative;
+      box-shadow: 0 8px 24px rgba(2,6,23,.4), inset 0 0 0 1px rgba(255,255,255,.02);
+      transition: transform .15s ease, border-color .15s ease;
+    }
+    .card:hover{ transform: translateY(-2px); border-color: rgba(96,165,250,.35); }
+    .card h3{margin:0 0 8px; font-size: clamp(18px, 2.5vw, 22px)}
+    .card p{margin:0 0 10px; color:var(--muted)}
+    .links{display:flex; flex-wrap:wrap; gap:10px}
+    .link{
+      display:inline-flex; align-items:center; gap:8px; padding:10px 12px; border-radius:12px; border:1px dashed rgba(148,163,184,.25);
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      font-weight:600;
+    }
+    .link:hover{border-style:solid; border-color:var(--ring); box-shadow:0 0 0 3px var(--ring)}
+
+    .two{grid-column: span 12}
+    @media (min-width: 720px){ .two{ grid-column: span 6 } }
+
+    footer{
+      margin:30px 0 60px; color:var(--muted); text-align:center
+    }
+    .credit{
+      margin-top:12px; padding:14px; border-radius:14px; border:1px solid rgba(148,163,184,.18);
+      display:inline-block; background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+    }
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">⭐ Curated by students • For students</div>
+      <h1 class="title">CS Student Hub — <span style="color:var(--brand)">Important Links</span></h1>
+      <p class="subtitle">One-page access to the most useful Computer Science resources at University of the People and beyond. Bookmark it and share with classmates.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="./" target="_self" rel="noopener">📁 View the Syllabus Repository</a>
+        <a class="btn" href="https://github.com/HassanSardarNaveed/UoPeople-BSCS-Syllabus-All-Subjects" target="_blank" rel="noopener">🌐 GitHub Repo</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article class="card two">
+        <h3>📘 Courses in Computer Science</h3>
+        <p>Official UoPeople catalogue page for the BS in Computer Science (BS‑CS).</p>
+        <div class="links">
+          <a class="link" href="https://catalog.uopeople.edu/ug_term1_item/computer-science/bachelor-of-science-in-computer-science-bs-cs" target="_blank" rel="noopener">Open Catalogue ↗</a>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>🧭 Course Selection Guide (PDF)</h3>
+        <p>Plan your academic path with the official selection guide.</p>
+        <div class="links">
+          <a class="link" href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.uopeople.edu/wp-content/uploads/2017/11/Course-Selection-Guide_-Computer-Science-.pdf&ved=2ahUKEwiYwsur746PAxWv9QIHHaEhHX0QFnoECEwQAQ&usg=AOvVaw3qLKD_ephmiJrji74Fj8aE" target="_blank" rel="noopener">Open Guide PDF ↗</a>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>📚 Course Details</h3>
+        <p>Descriptions and learning outcomes for each CS course.</p>
+        <div class="links">
+          <a class="link" href="https://www.uopeople.edu/programs/online-bachelors/computer-science/courses/" target="_blank" rel="noopener">Browse Courses ↗</a>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>🏛️ All UoPeople Courses</h3>
+        <p>Complete list of courses across programs at University of the People.</p>
+        <div class="links">
+          <a class="link" href="https://www.uopeople.edu/programs/courses/" target="_blank" rel="noopener">All Courses ↗</a>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>🗂️ UoPeople Online Syllabus Repository</h3>
+        <p>Official syllabus repository (requires login to the UoPeople portal).</p>
+        <div class="links">
+          <a class="link" href="https://my.uopeople.edu/mod/book/view.php?id=45606" target="_blank" rel="noopener">Open Syllabus Repository ↗</a>
+        </div>
+      </article>
+
+      <article class="card two">
+        <h3>🤝 Share & Contribute</h3>
+        <p>Found a newer syllabus or a missing file? Open a pull request or start a discussion.</p>
+        <div class="links">
+          <a class="link" href="https://github.com/HassanSardarNaveed/UoPeople-BSCS-Syllabus-All-Subjects/issues" target="_blank" rel="noopener">Create Issue ↗</a>
+          <a class="link" href="https://github.com/HassanSardarNaveed/UoPeople-BSCS-Syllabus-All-Subjects/pulls" target="_blank" rel="noopener">Open PR ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <div class="credit">
+        <div>✨ Compiled & Shared By: <strong>Hassan Sardar Naveed</strong></div>
+        <div class="mono">BS in Computer Science • University of the People</div>
+        <div style="margin-top:6px">🙏 <em>Please remember me and my family in your prayers.</em></div>
+        <div style="margin-top:8px">
+          📧 <a href="mailto:hassannaveed@my.uopeple.edu">hassannaveed@my.uopeple.edu</a>
+          &nbsp;•&nbsp; 💬 <a href="https://wa.me/923022129236" target="_blank" rel="noopener">WhatsApp</a>
+          &nbsp;•&nbsp; 💻 <a href="https://github.com/HassanSardarNaveed" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
