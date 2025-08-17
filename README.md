@@ -13,6 +13,30 @@ Each subject syllabus is available as a **PDF file**.
 
 ---
 
+# Some Important links for computer science students
+
+# Courses in Computer Science
+
+https://catalog.uopeople.edu/ug_term1_item/computer-science/bachelor-of-science-in-computer-science-bs-cs
+
+# Course Selection Guide
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.uopeople.edu/wp-content/uploads/2017/11/Course-Selection-Guide_-Computer-Science-.pdf&ved=2ahUKEwiYwsur746PAxWv9QIHHaEhHX0QFnoECEwQAQ&usg=AOvVaw3qLKD_ephmiJrji74Fj8aE
+
+# Courses details
+
+https://www.uopeople.edu/programs/online-bachelors/computer-science/courses/
+
+# All Courses at University of the People
+
+https://www.uopeople.edu/programs/courses/
+
+# UoPeople Online Syllabus Repository
+
+https://my.uopeople.edu/mod/book/view.php?id=45606 
+
+---
+
 ## ✨ Compiled & Shared By
 **Hassan Sardar Naveed**  
 Bachelor of Science in Computer Science  
